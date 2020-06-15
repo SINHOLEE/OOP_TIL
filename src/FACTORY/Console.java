@@ -21,6 +21,7 @@ public class Console {
 		comp1 = compFactory.getComp(Usage.PRESS);
 		comp1 = compFactory.getComp(Usage.TOGGLE);
 		comp1 = compFactory.getComp(Usage.EXPAND);
+		System.out.println(compFactory instanceof Object);
 		
 	}
 }
