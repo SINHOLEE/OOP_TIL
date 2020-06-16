@@ -23,7 +23,6 @@ class CompFactory {
 }
 
 
-
 class Button extends Component{
 	@Override
 	protected String getCompName() {

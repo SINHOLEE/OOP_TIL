@@ -56,10 +56,12 @@ public class ShapeFactoryDemo {
      Shape circle = shapeFactory.create("circle");
      circle.draw(); // "동그라미 그려요"
      
+     Circle c = new Circle();
+     c.draw();
      // 세모 그리기
-     Shape triangle = shapeFactory.create("triangle");
-     triangle.draw(); // "세모 그려요"
-     
+//     Shape triangle = shapeFactory.create("triangle");
+//     triangle.draw(); // "세모 그려요"
+//     
 //     // 세모 그리기
 //     Shape strangeShape = shapeFactory.create("strangeShape");
 //     strangeShape.draw(); // "세모 그려요"
